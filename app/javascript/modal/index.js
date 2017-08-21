@@ -1,5 +1,5 @@
 export default class Modal {
-  constructor($) {
+  constructor() {
     $('.close').click(()=>{
       console.log('close');
     })

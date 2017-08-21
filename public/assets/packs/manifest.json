@@ -1,4 +1,6 @@
 {
   "application.js": "/assets/packs/application.js",
-  "calendar.js": "/assets/packs/calendar.js"
+  "calendar.js": "/assets/packs/calendar.js",
+  "logger.js": "/assets/packs/logger.js",
+  "reminder.js": "/assets/packs/reminder.js"
 }

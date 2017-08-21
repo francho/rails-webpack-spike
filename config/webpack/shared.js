@@ -31,6 +31,10 @@ module.exports = {
     publicPath: output.publicPath
   },
 
+  externals: {
+    jquery: 'jQuery'
+  },
+
   module: {
     rules: sync(join(loadersDir, '*.js')).map(loader => require(loader))
   },

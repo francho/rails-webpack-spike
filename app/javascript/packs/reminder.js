@@ -1,10 +1,10 @@
 console.log('javascript/packs/calendar.js');
 
-import Calendar from 'calendar';
+import reminder from 'reminder';
 import Modal from 'modal';
 
-new Calendar;
-new Modal;
+new Modal();
+new reminder();
 
 
 
